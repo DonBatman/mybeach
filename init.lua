@@ -1,4 +1,4 @@
-local umbrella_box = {-0.5, -0.5, -0.5, 0.5, 0.5, 0.5}
+local umbrella_box = {-0.7, 0.4, -0.7, 0.7, 0.7, 0.7}
 
 local towel_box = {-0.3, -0.5, -0.5, 0.3, -0.45, 0.5}
 
@@ -6,11 +6,11 @@ local ball_box = {-0.4, -0.5, -0.4, 0.4, 0.3, 0.4}
 
 local radio_box = {-0.3, -0.5, -0.3, 0.3, 0, 0.3}
 
-local cup_box = {-0.2, -0.5, -0.2, 0.2, 0, 0.2}
+local cup_box = {-0.1, -0.5, -0.1, 0.1, -0.1, 0.1}
 
 local shell_box = {-0.1, -0.5, -0.1, 0.1, -0.3, 0.1}
 
-local bag_box = {-0.2, -0.5, -0.1, 0.2, 0, 0.1}
+local bag_box = {-0.3, -0.5, -0.1, 0.3, 0, 0.1}
 
 local beach_stuff = {
 					{"umbrella", "Umbrella", "umbrella", "umbrella", umbrella_box},

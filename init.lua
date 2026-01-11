@@ -46,4 +46,10 @@ core.register_node("mybeach:"..nam,{
 		type = "fixed",
 		fixed = {box}},
 })
+
+
+lucky_block:add_blocks({
+	{"dro", {"mybeach:"..nam}, 1},
+})
+
 end

@@ -54,3 +54,77 @@ if core.get_modpath("lucky_block") then
 	})
 end
 end
+
+--Crafts
+core.register_craft({
+	output = "mybeach:umbrella",
+	recipe = {
+		{"", "wool:blue", ""},
+		{"wool:red", "default:stick", "wool:yellow"},
+		{"", "default:stick", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:towel",
+	recipe = {
+		{"farming:string", "farming:string", "farming:string"},
+		{"farming:string", "farming:string", "farming:string"},
+		{"", "", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:ball",
+	recipe = {
+		{"", "default:junglegrass", ""},
+		{"default:junglegrass", "", "default:junglegrass"},
+		{"", "default:junglegrass", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:radio",
+	recipe = {
+		{"", "default:steel_ingot", ""},
+		{"", "default:copper_ingot", ""},
+		{"", "default:tin_ingot", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:cup_blue",
+	recipe = {
+		{"default:bush_sapling", "dye:blue", "default:bush_sapling"},
+		{"", "default:bush_sapling", ""},
+		{"", "", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:cup_pink",
+	recipe = {
+		{"default:bush_sapling", "dye:pink", "default:bush_sapling"},
+		{"", "default:bush_sapling", ""},
+		{"", "", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:shell1",
+	recipe = {
+		{"default:coral_skeleton", "default:coral_skeleton", ""},
+		{"default:coral_skeleton", "default:coral_skeleton", ""},
+		{"", "", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:shell2",
+	recipe = {
+		{"", "", ""},
+		{"default:coral_skeleton", "default:coral_skeleton", "default:coral_skeleton"},
+		{"", "", ""},
+	}
+})
+core.register_craft({
+	output = "mybeach:bag",
+	recipe = {
+		{"default:acacia_leaves", "", "default:acacia_leaves"},
+		{"default:acacia_leaves", "", "default:acacia_leaves"},
+		{"default:acacia_leaves", "default:acacia_leaves", "default:acacia_leaves"},
+	}
+})

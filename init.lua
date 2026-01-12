@@ -48,8 +48,9 @@ core.register_node("mybeach:"..nam,{
 })
 
 
-lucky_block:add_blocks({
-	{"dro", {"mybeach:"..nam}, 1},
-})
-
+if core.get_modpath("lucky_block") then
+	lucky_block:add_blocks({
+		{"dro", {"mybeach:"..nam}, 1},
+	})
+end
 end

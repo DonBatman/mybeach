@@ -128,3 +128,44 @@ core.register_craft({
 		{"default:acacia_leaves", "default:acacia_leaves", "default:acacia_leaves"},
 	}
 })
+------------------------------------------------------------
+core.register_decoration({
+    deco_type = "simple",
+    place_on = {"default:sand"},
+    sidelen = 16,
+    fill_ratio = 0.0005,
+    biomes = {"grassy_plains"},
+    y_max = 3,
+    y_min = -1,
+    decoration = "mybeach:shell1",
+})
+core.register_decoration({
+    deco_type = "simple",
+    place_on = {"default:sand"},
+    sidelen = 16,
+    fill_ratio = 0.0005,
+    biomes = {"grassy_plains"},
+    y_max = 3,
+    y_min = -1,
+    decoration = "mybeach:shell2",
+})
+core.register_decoration({
+    deco_type = "simple",
+    place_on = {"default:silver_sand"},
+    sidelen = 16,
+    fill_ratio = 0.0005,
+    biomes = {"grassy_plains"},
+    y_max = 3,
+    y_min = -1,
+    decoration = "mybeach:shell1",
+})
+core.register_decoration({
+    deco_type = "simple",
+    place_on = {"default:silver_sand"},
+    sidelen = 16,
+    fill_ratio = 0.0005,
+    biomes = {"grassy_plains"},
+    y_max = 3,
+    y_min = -1,
+    decoration = "mybeach:shell2",
+})
